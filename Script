@@ -11,8 +11,8 @@ local function callback(Text)
    NotificationBindable.OnInvoke = callback
    --
    game.StarterGui:SetCore("SendNotification",  {
-    Title = "FrkZ";  
-    Text = "FrkZ Loaded";
+    Title = "LOKAS HUB";  
+    Text = "LOKAS HUBLoaded";
     Icon = "";
     Duration = 100;
     Button1 = "Ok";
@@ -27,7 +27,7 @@ local DiscordLib =
     loadstring(game:HttpGet "https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/discord")()
 
 
-local win = DiscordLib:Window("FrkZ")
+local win = DiscordLib:Window("صنع روبيرتو")
 
 local serv = win:Server("Player", "")
 local sldrs = serv:Channel("Walkspeed")
@@ -248,11 +248,11 @@ btns:Button(
     end
 )
 
-local serv = win:Server("Credits", "")
+local serv = win:Server("Oمطورين السكربت", "")
 local lbls = serv:Channel("Developers")
 
-lbls:Label("frkfx")
-lbls:Label("Infinite_Speedy")
+lbls:Label("روبيرتو")
+lbls:Label("شاتاي")
 
 local lbls = serv:Channel("Offical Testers")
 lbls:Label("FredwardCring")
