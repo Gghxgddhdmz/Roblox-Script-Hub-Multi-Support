@@ -13,7 +13,7 @@ local UICorner = Instance.new("UICorner")
 
 ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 
-FrkZ.Name = "FrkZ"
+FrkZ.Name = "LOKAS HUB 1.2"
 FrkZ.Parent = ScreenGui
 FrkZ.BackgroundColor3 = Color3.fromRGB(44, 42, 42)
 FrkZ.BorderColor3 = Color3.fromRGB(255, 255, 255)
@@ -22,7 +22,7 @@ FrkZ.Position = UDim2.new(0.550880671, 0, 0.540157437, 0)
 FrkZ.Size = UDim2.new(0, 425, 0, 250)
 
 Load.Name = "Load"
-Load.Parent = FrkZ
+Load.Parent = LOKAS
 Load.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Load.BackgroundTransparency = 1.000
 Load.BorderSizePixel = 0
@@ -38,14 +38,14 @@ end)
 
 
 Label.Name = "Label"
-Label.Parent = FrkZ
+Label.Parent = LOKAS
 Label.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Label.BackgroundTransparency = 1.000
 Label.BorderSizePixel = 0
 Label.Position = UDim2.new(-0.00150108337, 0, -0.00204730034, 0)
 Label.Size = UDim2.new(0, 425, 0, 45)
 Label.Font = Enum.Font.Arial
-Label.Text = "FrkZ Loader"
+Label.Text = "LOKAS HUB Loader"
 Label.TextColor3 = Color3.fromRGB(255, 255, 255)
 Label.TextSize = 16.000
 
@@ -54,7 +54,7 @@ UICorner.Parent = FrkZ
 -- Scripts:
 
 local function PQGP_fake_script() -- FrkZ.LocalScript 
-	local script = Instance.new('LocalScript', FrkZ)
+	local script = Instance.new('LocalScript', LOKAS HUB)
 
 	local UIS = game:GetService('UserInputService')
 	local FrkZ = script.Parent
