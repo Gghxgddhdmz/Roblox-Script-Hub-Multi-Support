@@ -5,7 +5,7 @@ local SolarisLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/bl
   FolderToSave - Name of the folder where the UI files will be stored <string>
 })]]
 local win = SolarisLib:New({
-  Name = "FrkZ",
+  Name = "LORE HUB",
   FolderToSave = "Saved Scripts"
 })
 
@@ -24,13 +24,13 @@ local sec = tab:Section("UI Toggle (broken)")
 
 local sec = tab:Section("Player")
 
-local slider = sec:Slider("WalkSpeed", 16,500,16,2.5,"Changes The Walkspeed", function(t)
+local slider = sec:Slider("سرعة", 16,500,16,2.5,"Changes The Walkspeed", function(t)
         print(t)
 game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = t
 
 end)
 
-local slider = sec:Slider("JumpPower", 50,500,50,2.5,"Changes The JumpPower", function(t)
+local slider = sec:Slider("قفزه", 50,500,50,2.5,"Changes The JumpPower", function(t)
         print(t)
 game.Players.LocalPlayer.Character.Humanoid.JumpPower = t 
 
@@ -217,8 +217,8 @@ local label = sec:Label("ConasCring")
 local label = sec:Label("VerifiedO5")
 
 
-local tab = win:Tab("Developers")
-local sec = tab:Section("")
-local label = sec:Label("frkfx")
-local label = sec:Label("usedtab")
+local tab = win:Tab("صنع روبيرتو")
+local sec = tab:Section("صنع روبيرتو")
+local label = sec:Label("صنعه روبيرتو")
+local label = sec:Label("صنع روبيرتو")
 
